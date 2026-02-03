@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 450px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 5px 5px 7px 5px;
+    padding: 10px 10px;
+    height: 35px;
+    width: 100%;
+    border: 2px solid #5f9341;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#input-btn, #save-tab{
+    margin: 0px 5px;
+    padding: 5px 15px;
+    height:35px;
+    width: 130px;
+    border: 0;
+    font-weight: bold;
+    background-color: #5f9341;
+    color: azure;
+    box-shadow: 0 0 5px #324e22;
+    cursor: pointer;
+}
+
+#del-btn{
+    margin: 0px 5px;
+    padding: 5px 15px;
+    height:35px;
+    width: 130px;
+    font-weight: bold;
+    border: 2px solid #5f9341;
+    /* border-color: #5f9341; */
+    background-color: #ffffff;
+    color: #5f9341;
+    box-shadow: 0 0 5px #324e22;
+    cursor: pointer;
+}
+
+del-button, button:hover{
+    opacity: 0.7;
+}
+
+li a{ /*anchor tags in list items*/
+    color:#5f9341;
+}
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 5px 0px; /* Remove padding */
+  margin: 10px 10px; /* Remove margins */
+}
+li{
+    margin: 5px 0px;
+}
