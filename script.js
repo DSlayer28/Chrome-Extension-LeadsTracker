@@ -101,3 +101,5 @@ console.log(leadsFromLocalStorage)
 
     //truthy or falsy values
     //0, -1, "", null, undefined, NaN are falsy values
+
+    //.toFixed(2) --------------->rounds off to two decimal places
